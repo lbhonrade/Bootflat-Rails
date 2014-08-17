@@ -17,15 +17,15 @@ module BootflatRails
     end
 
     def stylesheets_path
-      File.join assets_path, 'stylesheets'
+      File.join assets_path, 'stylesheets', 'bootflat'
     end
 
     def javascripts_path
-      File.join assets_path, 'javascripts'
+      File.join assets_path, 'javascripts', 'bootflat'
     end
 
     def images_path
-      File.join assets_path, 'images'
+      File.join assets_path, 'images', 'bootflat'
     end
 
     def assets_path
